@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit
   gitUsername: PoojaAnandGit
   gitBranch: main
+services:
+- serviceName: project.testp12.integrations:e1
+  packages:
+  - name: TestP12Project
+    version: "1.0"
+- serviceName: pub.date:calculateDateDifference
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2023
